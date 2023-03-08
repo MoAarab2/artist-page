@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.switcher-taal {
+  margin: auto !important;
+}
+
+.uk-subnav-pill > * > :first-child {
+  color: #111;
+}
+
+.uk-subnav-pill > .uk-active > a {
+  background-color: #333;
+  color: #fff;
+}
+
+.section-about {
+  justify-content: row;
+}

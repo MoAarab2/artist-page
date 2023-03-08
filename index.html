@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mo Arab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="about-styles.css" />
+    <link />
+    <link rel="stylesheet" href="footer.css" />
+    <link />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img class="logo" src="images/Mo Arab logo.svg" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button" 
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        
+          <span class="navbar-toggler-icon">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+
+          
+              <li class="nav-link active"> <a
+                class="nav-link active"
+                aria-current="page"
+                href="paintings.html"
+                >My Art</a
+              ></li>
+              
+              <li class="nav-link active"> 
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="https://mo-arab-portfolio.netlify.app/"
+                  >Graphics</a
+                >
+             </li>
+             
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </span>
+      </div>
+    </nav>
+
+    <nav class="nav-container">
+      <a class="navbar-brand" href="#"
+        ><img class="logo" src="images/Mo Arab logo.svg" alt="logo"
+      /></a>
+      <div class="nav-links-container">
+        <a class="nav-link active addtooltip"  href="about.html"
+          >About<br><span class="tooltiptxt">Artist statement & pre exhibitions</span></a
+        >
+
+        <a class="nav-link active addtooltip"  href="paintings.html"
+          >Paintings<br><span class="tooltiptxt">My paintings selection</span></a
+        >
+
+        <a class="nav-link active addtooltip" href="https://mo-arab-portfolio.netlify.app/" target="_blank">Graphics<br><span class="tooltiptxt">My Graphics design website</span></a>
+
+        <a class="nav-link active addtooltip"  href="contact.html"
+          >Contact <br><span class="tooltiptxt">Interested in my work contact me here</span></a
+        >
+        
+      </div>
+    
+      <footer>
+        <div class="footer-content">
+          <div class="container text-center">
+            <a href="#"> <i class="fa fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-solid fa-at"></i></a>
+          </div>
+
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            <br />
+            Mo Arab All Rights Reserved
+          </p>
+        </div>
+      </footer>
+    </nav>
+
+    <div class="section">
+      <div
+        class="uk-position-relative uk-visible-toggle uk-light"
+        tabindex="-1"
+        uk-slideshow="autoplay: true; autoplay-interval: 5000; pause-on-hover: false;"
+      >
+        <ul class="uk-slideshow-items">
+          <li>
+            <img
+              src="images/homepage-slider-images/image1.jpg"
+              alt="slide1"
+              uk-cover
+            />
+            <div class="uk-position-center uk-panel"></div>
+          </li>
+          <li>
+            <img
+              src="images/homepage-slider-images/image2.jpg"
+              alt="slide2"
+              uk-cover
+            />
+            <div class="uk-position-center uk-panel"></div>
+          </li>
+          <li>
+            <img
+              src="images/homepage-slider-images/image3.jpg"
+              alt="slide3"
+              uk-cover
+            />
+            <div class="uk-position-center uk-panel"></div>
+          </li>
+          <li>
+            <img
+              src="images/homepage-slider-images/image4.jpg"
+              alt="slide4"
+              uk-cover
+            />
+            <div class="uk-position-center uk-panel"></div>
+          </li>
+        </ul>
+        <a
+          class="uk-position-center-left uk-position-small uk-hidden-hover hide"
+          href="#"
+          uk-slidenav-previous
+          uk-slider-item="previous"
+        ></a>
+        <a
+          class="uk-position-center-right uk-position-small uk-hidden-hover hide"
+          href="#"
+          uk-slidenav-next
+          uk-slider-item="next"
+        ></a>
+      </div>
+    </div>
+
+    <div class="section-mobile">
+      <div class="inner-section-mobile">
+        <img src="images/paintings/image1.jpg" alt="Red moon" />
+      </div>
+    </div>
+
+    <div class="footer-content-mobile">
+      <footer>
+        <div class="container text-center">
+          <a href="#"> <i class="fa fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-solid fa-at"></i></a>
+        </div>
+
+        <p>
+          Copyright &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          Mo Arab All Rights Reserved
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

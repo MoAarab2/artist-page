@@ -1,0 +1,33 @@
+.col {
+  margin: 5% 10%;
+}
+
+.ul-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.bio {
+  font-size: 1em;
+}
+
+.tussen {
+  font-size: 1.5em;
+}
+
+.jaar {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.image-mo {
+  margin-top: 8%;
+  margin-left: 25%;
+  margin-right: auto;
+  border-radius: 5%;
+}
+
+.a2:hover {
+  color: darkgray;
+  cursor: pointer;
+}
